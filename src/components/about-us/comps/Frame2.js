@@ -9,10 +9,10 @@ function Frame2() {
     <div className="container frame2">
         <div className="row">
             <div className="col-sm-6 col-lg-6 col-md-6">
-                <img src={loan} width="480" height="480" alt="loan-img"></img>
+                <img src={loan} width="100%" height="100%" alt="loan-img"></img>
             </div>
-            <div className="col-sm-6 col-lg-6 col-md-6">
-                <button type="button" className="button">
+            <div className="col-sm-6 col-lg-6 col-md-6" >
+                <button type="button" className="button know" >
                     <h2>Know More</h2>
                 </button>
             </div>
@@ -56,12 +56,12 @@ function Frame2() {
             </div>
         </div>
         <div >
-            <img src = {gdsc_img} alt = "gdsc img"></img>
+            <img className='gdscimg ' src = {gdsc_img} alt = "gdsc img"></img>
         </div>
-        <div  className='container' style={{"textAlign" : "justify", "font-size" : "28px"}} >
+        {/* <div  className='container' style={{"textAlign" : "justify", "fontsize" : "28px"}} >
         <strong>Lorem ipsum dolor sit amet consectetur. Eget purus vehicula ultrices diam in eget. Phasellus sollicitudin cursus neque in magna sed. Luctus at vitae porttitor urna nec. Aliquam faucibus morbi nullam nulla pellentesque rhoncus tortor. Sit dolor convallis tincidunt donec nam sed. Nunc lorem diam ac sed. Vel sit porttitor a nec sit elit. Tellus aliquet egestas a habitant vitae id sodales. Id lectus facilisi facilisis mauris. Vitae arcu lacus sed ac sapien. Lectus aenean semper netus convallis duis massa nec. Nisl neque sem sed aliquam vitae sed ullamcorper mauris. Nulla sit curabitur a eget etiam auctor. Sed nulla urna lectus lacus diam dui.
         </strong>
-        </div>
+        </div> */}
     </div>
   )
 }

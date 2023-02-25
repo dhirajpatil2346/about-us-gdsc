@@ -1,16 +1,17 @@
 import React from 'react'
-import bag1 from "../images/frame-1.jpg"
+// import bag1 from "../images/frame-1.jpg"
 import "./style.css"
 function Frame1() {
-    const styles = {
-            backgroundImage: `url(${bag1})`,
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
-            width: '100vw',
-            height: '120vh'
-    };
+    // const styles = {
+    //         backgroundImage: `url(${bag1})`,
+    //         backgroundPosition: 'center',
+    //         backgroundSize: 'cover',
+    //         height:'200%'
+    //         // width: '100%',
+    //         // height: '200%'
+    // };
   return (
-    <div className='Frame1' style={styles}>
+    <div className='Frame1 my-image' >
         <h1 className='community h11' style={{"color" : "#FF0000"}}>
             About the community
         </h1>
